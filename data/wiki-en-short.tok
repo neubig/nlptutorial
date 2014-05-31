@@ -1,0 +1,57 @@
+Among these , supervised learning approaches have been the most successful algorithms to date .
+Current accuracy is difficult to state without a host of caveats .
+WSD task has two variants : `` lexical sample '' and `` all words '' task .
+The bass line of the song is too weak .
+Early researchers understood the significance and difficulty of WSD well .
+Still , supervised systems continue to perform best .
+Difficulties Differences between dictionaries One problem with word sense disambiguation is deciding what the senses are .
+In cases like the word bass above , at least some senses are obviously different .
+Different dictionaries and thesauruses will provide different divisions of words into senses .
+Other resources used for disambiguation purposes include Roget 's Thesaurus and Wikipedia .
+It is instructive to compare the word sense disambiguation problem with the problem of part-of-speech tagging .
+Both involve disambiguating or tagging with words , be it with senses or parts of speech .
+These figures are typical for English , and may be very different from those for other languages .
+Inter-judge variance Another problem is inter-judge variance .
+WSD systems are normally tested by having their results on a task compared against those of a human .
+`` Jill and Mary are mothers . '' -- -LRB- each is independently a mother -RRB- .
+To properly identify senses of words one must know common sense facts .
+Also , completely different algorithms might be required by different applications .
+In machine translation , the problem takes the form of target word selection .
+Discreteness of senses Finally , the very notion of `` word sense '' is slippery and controversial .
+Word meaning is in principle infinitely variable and context sensitive .
+It does not divide up easily into distinct or discrete sub-meanings .
+Deep approaches presume access to a comprehensive body of world knowledge .
+Shallow approaches do n't try to understand the text .
+Supervised methods : These make use of sense-annotated corpora to train from .
+Unsupervised methods : These eschew -LRB- almost -RRB- completely external information and work directly from raw unannotated corpora .
+These methods are also known under the name of word sense discrimination .
+Two shallow approaches used to train and then disambiguate are Naïve Bayes classifiers and decision trees .
+In recent research , kernel-based methods such as support vector machines have shown superior performance in supervised learning .
+Dictionary - and knowledge-based methods The Lesk algorithm is the seminal dictionary-based method .
+The Yarowsky algorithm was an early example of such an algorithm .
+The seeds are used to train an initial classifier , using any supervised method .
+Other semi-supervised techniques use large quantities of untagged corpora to provide co-occurrence information that supplements the tagged corpora .
+These techniques have the potential to help in the adaptation of supervised models to different domains .
+Word-aligned bilingual corpora have been used to infer cross-lingual sense distinctions , a kind of semi-supervised system .
+Unsupervised methods Main article : Word sense induction Unsupervised learning is the greatest challenge for WSD researchers .
+Then , new occurrences of the word can be classified into the closest induced clusters\/senses .
+Alternatively , word sense induction methods can be tested and compared within an application .
+Local impediments and summary The knowledge acquisition bottleneck is perhaps the major impediment to solving the WSD problem .
+Unsupervised methods rely on knowledge about word senses , which is barely formulated in dictionaries and lexical databases .
+Knowledge sources provide data which are essential to associate senses with words .
+In order to test one 's algorithm , developers should spend their time to annotate all word occurrences .
+And comparing methods even on the same corpus is not eligible if there is different sense inventories .
+In order to define common evaluation datasets and procedures , public evaluation campaigns have been organized .
+Task Design Choices Sense Inventories .
+During the first Senseval workshop the HECTOR sense inventory was adopted .
+A set of testing words .
+Comparison of methods can be divided in 2 groups by amount of words to test .
+Initially only the latter was used in evaluation but later the former was included .
+Lexical sample organizers had to choose samples on which the systems were to be tested .
+Baselines .
+For comparison purposes , known , yet simple , algorithms named baselines are used .
+These include different variants of Lesk algorithm or most frequent sense algorithm .
+Sense inventory .
+WordNet is the most popular example of sense inventory .
+The reason for adopting the HECTOR database during Senseval-1 was that the WordNet inventory was already publicly available .
+Evaluation measures .
