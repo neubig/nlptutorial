@@ -1,0 +1,14 @@
+set incsearch
+set nohlsearch
+
+set backspace=2
+
+set smartindent
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
+set expandtab
+
+set fileencodings=utf-8,euc-jp,iso-2022-jp,sjis
+
+syntax on
