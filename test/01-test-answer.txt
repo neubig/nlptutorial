@@ -1,0 +1,31 @@
+entropy = 6.709899
+coverage = 0.800000
+
+# Let's check this answer!
+#
+# The general probability is:
+#  P(x) = lambda_1 P_ML(x) + lambda_unk 1/1000000
+# 
+# So the probability for each word is
+#  P(a) = 0.95*0.25 + 0.05*1/1000000    = .23750005
+#  P(c) = 0.95*0.125 + 0.05*1/1000000   = .11875005
+#  P(e) = 0.95*0 + 0.05*1/1000000       = .23750005
+#  P(</s>) = 0.95*0.25 + 0.05*1/1000000 = .00000005
+#
+# Thus, the entropy for a single word is:
+#  H(a)     = -log_2( .23750005 ) = 2.07400
+#  H(c)     = -log_2( .11875005 ) = 3.07399
+#  H(e)     = -log_2( .23750005 ) = 24.2534
+#  H(</s>)  = -log_2( .00000005 ) = 2.07400
+#
+# Taking the entropy of the total corpus, we get:
+#  ( H(a) + H(c) + H(</s>) + H(e) + H(</s>) ) / 5
+#  = 6.7098
+#
+# For the coverage, only one of the words "e" out of 5 is missing, so our
+# coverage is 4/5 = 0.8
+#
+# Note that we are dividing by 5, including the sentence final symbol. It is
+# also possible (and maybe more correct) to divide by 3, the total number of
+# actual words in the corpus. However, this will make our code a little bit
+# more complicated.
