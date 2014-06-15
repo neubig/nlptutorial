@@ -1,0 +1,1 @@
+(S (NP_PRP i) (VP (VBD saw) (VP' (NP (DT a) (NN girl)) (PP (IN with) (NP (DT a) (NN telescope))))))

@@ -1,0 +1,18 @@
+S	NP VP	0.6
+S	NP_NN VP	0.2
+S	NP_PRP VP	0.2
+VP	VBD VP'	0.6
+VP'	NP PP	1.0
+VP	VBD NP	0.4
+PP	IN NP	0.4
+NP	DT NN	0.5
+NP_PRP	i	0.4
+VBD	saw	0.05
+NN	saw	0.01
+DT	a	0.6
+DT	the	0.4
+NP_NN	man	0.04
+NN	man	0.05
+NN	girl	0.04
+NN	telescope	0.02
+IN	with	0.03
