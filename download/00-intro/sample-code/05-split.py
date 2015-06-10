@@ -1,11 +1,9 @@
-#!/usr/bin/python
-
-import string
+#!/usr/bin/python3
 
 sentence = "this is a pen"
 words = sentence.split(" ")
 
 for word in words:
-    print word
+    print(word)
 
-print string.join(words, " ||| ")
+print(" ||| ".join(words))
