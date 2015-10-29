@@ -11,14 +11,16 @@ The tutorial covers the following material:
   * **Tutorial 0:** Programming Basics
   * **Tutorial 1:** Unigram Language Models
   * **Tutorial 2:** Bigram Language Models
-  * **Tutorial 3:** The Perceptron Algorithm
-  * **Tutorial 4:** Word Segmentation
-  * **Tutorial 5:** Part-of-Speech Tagging with Hidden Markov Models
-  * **Tutorial 6:** Kana-Kanji Conversion for Japanese Input
-  * **Tutorial 7:** Topic Models
-  * **Tutorial 8:** Phrase Structure Parsing
-  * **Tutorial 9:** Advanced Discriminative Training
-  * **Tutorial 10:** Neural Networks
-  * **Tutorial 11:** Structured Perceptron
-  * **Tutorial 12:** Dependency Parsing
+  * **Tutorial 3:** Word Segmentation
+  * **Tutorial 4:** Part-of-Speech Tagging with Hidden Markov Models
+  * **Tutorial 5:** The Perceptron Algorithm
+  * **Tutorial 6:** Advanced Discriminative Training
+  * **Tutorial 7:** Neural Networks
+  * **Tutorial 8:** Recurrent Neural Networks  
+  * **Tutorial 9:** Topic Models
+  * **Tutorial 10:** Phrase Structure Parsing
+  * **Tutorial 11:** Dependency Parsing
+  * **Tutorial 12:** Structured Perceptron
   * **Tutorial 13:** Search Algorithms 
+  * **Bonus 1:** Kana-Kanji Conversion for Japanese Input
+  
